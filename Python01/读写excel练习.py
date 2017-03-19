@@ -37,7 +37,7 @@ rows = wss.rows
 cols = wss.columns
 
 # 通过坐标读取值
-print(wss.cell('B8').value)  # B 表示列，12 表示行
+print(wss.cell('B8').value)  # B 表示列，8 表示行
 print(wss['B8'].value)
 print(wss.cell(row=9, column=2).value)
 
